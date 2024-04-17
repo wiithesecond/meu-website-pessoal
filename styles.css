@@ -29,8 +29,22 @@ body {
     width: 250px;
     height: 250px;
     object-fit: cover;
-    border-radius: 25px;
+}
 
+#toplef img {
+    border-top-left-radius: 35px;
+}
+
+#botlef img {
+    border-bottom-left-radius: 35px;
+}
+
+#toprig img {
+    border-top-right-radius: 35px;
+}
+
+#botrig img {
+    border-bottom-right-radius: 35px;
 }
 
 :root {
